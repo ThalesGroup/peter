@@ -1,4 +1,3 @@
-Describe here all the security policies in place on this repository to help your contributors to handle security issues efficiently.
 
 ## Goods practices to follow
 
@@ -14,26 +13,22 @@ Describe here all the security policies in place on this repository to help your
 Use this section to tell people about which versions of your project are currently being supported with security updates.
 
 | Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+|---------| ------------------ |
+| 1.0     | :white_check_mark: |
+
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+To report a vulnerability, open an issue on github : https://github.com/ThalesGroup/peter for the branch that is concern.
 Tell them where to go, how often they can expect to get an update on a reported vulnerability, what to expect if the vulnerability is accepted or declined, etc.
-
-You can ask for support by contacting security@opensource.thalesgroup.com
 
 ## Disclosure policy
 
-Define the procedure for what a reporter who finds a security issue needs to do in order to fully disclose the problem safely, including who to contact and how.
+Open an issue on Github : https://github.com/ThalesGroup/peter, describe what security breach you found, what tools you used.
 
 ## Security Update policy
 
-Define how you intend to update users about new security vulnerabilities as they are found.
+The security breach will be closed when the issue about the security breach will be closed
 
 ## Security related configuration
 
@@ -41,5 +36,4 @@ Settings users should consider that would impact the security posture of deployi
 
 ## Known security gaps & future enhancements
 
-Security improvements you haven’t gotten to yet.
-Inform users those security controls aren’t in place, and perhaps suggest they contribute an implementation
+Security will be improved and updated on each patch.
