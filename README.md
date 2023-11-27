@@ -1,44 +1,50 @@
-# Thales Open Source Template Project
 
-Template for creating a new project in the [Thales GitHub organization](https://github.com/ThalesGroup).
+# PETER - Product Evaluation for Ecodesign and Reporting
 
-Each Thales OSS project repository **MUST** contain the following files at the root:
+PETER is a tool to help engineering teams compute the ecological footprint of the solutions they develop.
 
-- a `LICENSE` which has been chosen in accordance with legal department depending on your needs
+To start estimating your carbon impact with PETER 
 
-- a `README.md` outlining the project goals, sponsoring sig, and community contact information, [GitHub tips about README.md](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes)
+## Getting started
 
-- a `CONTRIBUTING.md` outlining how to contribute to the project, how to submit a pull request and an issue
+### Prerequisite
 
-- a `SECURITY.md` outlining how the security concerns are handled, [GitHub tips about SECURITY.md](https://docs.github.com/en/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository)
+#### NPM
 
-Below is an example of the common structure and information expected in a README.
+We use `npm` to manage dependencies, build, run tests etc...
 
-**Please keep this structure as is and only fill the content for each section according to your project.**
+You'll find installation guide depending on your `Operating System`: [install | npm Docs (npmjs.com)](https://docs.npmjs.com/cli/v9/configuring-npm/install)
 
-If you need assistance or have question, please contact oss@thalesgroup.com
 
-## Get started
+### Installation
 
-XXX project purpose it to ...
+```shell
+npm install
+```
 
-**Please also add the description into the About section (Description field)**
+### Start in dev mode (hot reload)
 
-## Documentation
+```
+npm run dev
+```
 
-Documentation is available at [xxx/docs](https://xxx/docs/).
+### Tests
 
-You can use [GitHub pages](https://guides.github.com/features/pages/) to create your documentation.
+```
+npm run test
+```
 
-See an example here : https://github.com/ThalesGroup/ThalesGroup.github.io
+If you want your tests to run again after a change (in case of TDD for example):
 
-**Please also add the documentation URL into the About section (Website field)**
+```
+npm run testw
+```
 
-## Contributing
+### Build for production
 
-If you are interested in contributing to the XXX project, start by reading the [Contributing guide](/CONTRIBUTING.md).
-
-## License
-
-The chosen license in accordance with legal department must be defined into an explicit [LICENSE](https://github.com/ThalesGroup/template-project/blob/master/LICENSE) file at the root of the repository
-You can also link this file in this README section.
+```
+npm run build
+```
+### Update data
+if you want to update data about list just add the data in the list located in the files that has a name that contained "Provider".
+For the file sent to the team, it is the file "InMemoryEvaluationVersionProvider.ts"
