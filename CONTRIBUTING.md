@@ -6,7 +6,7 @@ File issues using the standard Github issue tracker for the repo.
 
 ## How to become a contributor and submit your own code
 
-### How to become a contributor
+### Contributing A Patch
 
 Submit an issue describing your proposed change to the repo in question.
 The repo owner will respond to your issue promptly.
